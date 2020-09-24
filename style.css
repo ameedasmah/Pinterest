@@ -8,7 +8,6 @@
 	
 	height: auto;
 	width: 50%;
-	/*left: 50%*/
 	transform: translate(50%);
 	margin: 25px 0 10px 0;
 	text-align: center;
@@ -45,6 +44,8 @@
 .icon{
 	display: flex;
 	align-items: center;
+	margin-right: 20px;
+	grid-gap: 15px;
 }
 .title{
 	margin-left: 20px;
@@ -58,7 +59,7 @@
 
 
 .notification{
-	background-image: url(./nt.png);
+	/*background-image: url(./nt.png);*/
 	width: 35px;
 	height : 35px;
 	background-size: contain;
@@ -66,13 +67,14 @@
 
 
 .chat {
-	background-image: url(./chat.PNG);
+	/*background-image: url(./chat.PNG);*/
 	width: 35px;
 	height : 35px;
 	background-size: contain;
 }
 
 .gallery {
+
   display: grid;                                               
   /*grid-auto-rows: 50px;*/                                      
   grid-gap: 10px;                                               
@@ -113,7 +115,7 @@
 	height: 100%
 	width :100%;
 	object-fit: cover;
-	filter: brightness(.75) grayscale(100);
+	filter: brightness(.75) grayscale(25);
 	transition: 0.3s ease-in-out;
 
 }
